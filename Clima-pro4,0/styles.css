@@ -1,0 +1,97 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #3207f3;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eff2f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333dcc;
+}
+
+#search {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#city-input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#search-btn {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #0056b3;
+}
+
+#current-weather {
+    background-color: #9feef8;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#current-details {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+#forecast {
+    margin-top: 20px;
+}
+
+#forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.forecast-day {
+    background-color: #a1dbf7;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.forecast-day:hover {
+    transform: scale(1.05);
+}
+
+.forecast-day p {
+    margin: 5px 0;
+}
+
+#chart-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#map {
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
